@@ -7,14 +7,16 @@ import Header from "../components/Header"
 import Hero from "../components/Hero"
 import Container from "../components/Container"
 
-const IndexPage = props => (
-  <Layout>
-    <Header uri={props.uri} />
+const IndexPage = props => {
+  return (
+    <Layout>
+      <Header uri={props["*"]} />
 
-    <Container>
-      <Hero />
-    </Container>
-  </Layout>
-)
+      <Container>
+        <Hero />
+      </Container>
+    </Layout>
+  )
+}
 
 export default IndexPage
