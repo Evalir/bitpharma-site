@@ -104,7 +104,6 @@ const Shape = styled.img`
 `
 
 const Header = ({ uri }) => {
-  console.log(uri)
   return (
     <React.Fragment>
       <Shape src={HEADER_BACKGROUND} />
