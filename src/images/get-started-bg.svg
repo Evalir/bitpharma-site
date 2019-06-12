@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1264px" height="463px" viewBox="0 0 1264 463" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>get-started-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1264" height="463" rx="30"></rect>
+        <linearGradient x1="0%" y1="70.411%" x2="94.98%" y2="53.074%" id="linearGradient-3">
+            <stop stop-color="#3732A0" offset="0%"></stop>
+            <stop stop-color="#312D85" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="get-started-bg">
+            <g id="a-link" fill="#312D85" fill-rule="nonzero">
+                <rect id="a" x="0" y="0" width="1264" height="463"></rect>
+            </g>
+            <g id="Clipped">
+                <g id="Path-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <path d="M1259.027,-90.044 C1112.507,-133.522 997.7,-79.81 964.313,39.98 C931.66,157.114 752.105,112.65 655.728,177.827 C504.315,280.227 560.892,419.687 346.004,419.687 C202.744,419.687 128.41,487.79 123,624 L1258.28,624 C1265.649,624 1265.898,385.985 1259.027,-90.044 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

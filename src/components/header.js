@@ -73,6 +73,7 @@ const RightMenu = styled.ul`
   @media (max-width: 768px) {
     li {
       margin-left: 0;
+      margin-right: 16px;
       padding: 8px 32px;
       background: #8e2de2;
       background: linear-gradient(
@@ -115,10 +116,10 @@ const Header = ({ uri }) => {
             {uri === "business" && (
               <React.Fragment>
                 <li>
-                  <Link to="#">Pricing</Link>
+                  <Link to="/business/pricing">Pricing</Link>
                 </li>
                 <li>
-                  <Link to="#">Contact</Link>
+                  <a href="mailto:info@bitpharma.xyz">Contact</a>
                 </li>
               </React.Fragment>
             )}

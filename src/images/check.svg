@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check" transform="translate(-5.000000, -6.000000)">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <g id="a-link" transform="translate(4.000000, 6.000000)" fill="#25216F" fill-rule="nonzero">
+                <path d="M14.216,0.334 C13.9385542,0.0897969798 13.5723946,-0.0286581381 13.2044867,0.00676862434 C12.8365789,0.0421953868 12.4997502,0.228342996 12.274,0.521 L6.178,8.169 L3.078,6.009 C2.424,5.604 1.579,5.831 1.192,6.515 C0.8340407,7.14629059 0.985522816,7.94389894 1.55,8.4 L6.715,12 L14.395,2.365 C14.8821732,1.74711453 14.803248,0.856574872 14.215,0.334 L14.216,0.334 Z" id="a"></path>
+            </g>
+        </g>
+    </g>
+</svg>
