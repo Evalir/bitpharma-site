@@ -56,15 +56,13 @@ const Hero = props => {
   return (
     <Wrapper>
       <div className="info">
-        <h1>Lorem Ipsum, blah blah blah, blah blah blah</h1>
+        <h1>Bitpharma App</h1>
         <div className="stores-container">
           <img alt="apple store" src={APPLE_STORE} />
           <img alt="google play" src={GOOGLE_PLAY} />
         </div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est
-        pharetra, viverra quam quis, gravida enim. Integer sit amet nibh mi.
-        Duis dapibus lacus risus, nec lobortis lacus ultricies in. Nulla
-        facilisi. Vestibulum accumsan tristique scelerisque.
+        Bitpharma is the new trend in the pharmaceutical market, with this product customers can make online purchases and see the status of their orders in real time. Also the app get to schedule and notify users for their medicine.
+
       </div>
 
       <img className="iphone" alt="iphone" src={IPHONE} />

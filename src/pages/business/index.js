@@ -83,11 +83,7 @@ const IndexPage = props => {
           <Info style={{ textAlign: "left", padding: "0 0 24px 0" }}>
             <h1>Manage your orders!</h1>
             <div className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate.
+              With Bit for Business you can have access to manage all orders made to your pharmacies. Another important point you can have with Bitpharma is how to get projections from sales and how to manage efficiently your inventory.
             </div>
           </Info>
         </Article>
@@ -97,11 +93,7 @@ const IndexPage = props => {
         <Info>
           <h1>Easy, insanely fast client setup</h1>
           <div className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate.
+          Bit for Business is the perfect solutions where you can have access to manage all orders made by your clients. You can have with Bitpharma projections of sales, also little tips of how to manage efficiently your inventory based on yor customers preferences.
           </div>
         </Info>
       </Container>

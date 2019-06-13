@@ -55,7 +55,7 @@ const Agencies = () => {
         <Wrapper>
           <Title>Plans & Pricing</Title>
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Here are our plans, you can choose which one adjust better for your needs.
           </Description>
           <Pricing />
         </Wrapper>

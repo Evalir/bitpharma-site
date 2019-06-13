@@ -102,8 +102,7 @@ const Banner = () => {
         <Content>
           <Title>Contact US</Title>
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et
-            est pharetra, viverra quam quis, gravida enim.
+          Get in contac with us for more details and benefits of our product. You can click the botton bellow for more information. 
           </Description>
 
           <GetStartedButton href="/" style={{ textDecoration: "none" }}>

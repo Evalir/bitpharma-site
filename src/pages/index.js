@@ -51,11 +51,8 @@ const IndexPage = props => (
       <Info>
         <h1>Easy, insanely fast client setup</h1>
         <div className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate.
+        It consists of a set of applications that allow users to order the purchase of pharmaceutical products through a mobile application. It also offers pharmacies a set of services and applications for managing orders in real time and to efficiently manage the inventory of their products. Providing visualization and projections of the sale of each of its products.
+
         </div>
       </Info>
     </Container>
