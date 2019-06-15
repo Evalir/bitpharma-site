@@ -1,3 +1,4 @@
 [[redirects]]
-  force = false
-  query = {status = ":status"}
+  from = "/*"
+  to = "/index.html"
+  status = 200 
