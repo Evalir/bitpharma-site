@@ -1,13 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-import Layout from "../components/Layout"
-import Header from "../components/Header"
-import Container from "../components/Container"
-import Footer from "../components/Footer"
+import Layout from "../../components/Layout"
+import Header from "../../components/Header"
+import Container from "../../components/Container"
+import Footer from "../../components/Footer"
 
-import SUCCESS from "../images/confirm.svg"
-import ERROR from "../images/error.svg"
+import ERROR from "../../images/error.svg"
 
 const Wrapper = styled.div`
   display: flex;
@@ -53,36 +52,16 @@ const Image = styled.img`
   margin-bottom: 24px;
 `
 
-function getQueryVariable(path, variable) {
-  const query = path.substring(1)
-  const vars = query.split("&")
-
-  for (let i = 0; i < vars.length; i++) {
-    let pair = vars[i].split("=")
-    if (decodeURIComponent(pair[0]) == variable) {
-      return decodeURIComponent(pair[1])
-    }
-  }
-
-  return null
-}
-
-const Agencies = ({ location }) => {
-  const confirmed =
-    getQueryVariable(location.search, "status") === "true" ? true : false
+const Agencies = () => {
   return (
     <Layout>
       <Header black />
 
       <Container>
         <Wrapper>
-          {confirmed ? <Image src={SUCCESS} /> : <Image src={ERROR} />}
+          <Image src={ERROR} />
           <Title>Account Confirmation</Title>
-          {confirmed ? (
-            <Description>Your account has been confirmed.</Description>
-          ) : (
-            <Description>Your account could not be confirmed.</Description>
-          )}
+          <Description>Your account could not be confirmed.</Description>
         </Wrapper>
       </Container>
 
