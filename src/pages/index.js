@@ -51,8 +51,7 @@ const IndexPage = props => (
       <Info>
         <h1>Easy, insanely fast client setup</h1>
         <div className="description">
-        It consists of a set of applications that allow users to order the purchase of pharmaceutical products through a mobile application. It also offers pharmacies a set of services and applications for managing orders in real time and to efficiently manage the inventory of their products. Providing visualization and projections of the sale of each of its products.
-
+        Bitpharma consists of a set of applications that allows users to order the purchase of pharmaceutical products through a mobile application. It also offers pharmacies a set of services and applications for managing orders in real time and to efficiently manage the inventory of their products, providing visualization and projections of the sale of each of its products.
         </div>
       </Info>
     </Container>
